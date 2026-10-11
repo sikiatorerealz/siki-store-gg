@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090d1b">
+<title>SIKI STORE | Joki MLBB</title>
+<style>
+:root{--bg:#080c19;--panel:#11182b;--panel2:#17213a;--gold:#ffd166;--cyan:#56e0ff;--text:#f5f7ff;--muted:#aab4ce;--line:rgba(255,255,255,.1)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 80% 0%,#182752 0,transparent 35%),var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 0;gap:16px}.brand{font-weight:950;letter-spacing:1.5px;font-size:1.15rem}.brand span{color:var(--gold)}.navlinks{display:flex;gap:22px;color:var(--muted);font-size:.92rem}
+.hero{padding:66px 0 54px;display:grid;grid-template-columns:1.15fr .85fr;gap:38px;align-items:center}.eyebrow{display:inline-flex;border:1px solid #34466e;background:#121d37;color:var(--cyan);padding:6px 12px;border-radius:99px;font-size:.8rem;font-weight:800;letter-spacing:.7px}
+h1{font-size:clamp(2.5rem,6vw,4.8rem);line-height:1.02;letter-spacing:-2px;margin:18px 0}.gradient{background:linear-gradient(90deg,var(--gold),#fff0ae 45%,var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{color:var(--muted);font-size:1.08rem;max-width:570px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:12px;padding:12px 18px;font-weight:850;border:1px solid var(--line);transition:.2s}.btn:hover{transform:translateY(-2px)}.primary{background:linear-gradient(100deg,var(--gold),#ffb84d);color:#15101a;border:0}.secondary{background:#131b30}
+.hero-card{position:relative;border:1px solid #34456c;border-radius:26px;padding:27px;background:linear-gradient(145deg,rgba(31,47,83,.95),rgba(13,19,36,.96));box-shadow:0 24px 70px #0005;overflow:hidden}.hero-card:after{content:"";position:absolute;width:190px;height:190px;border-radius:50%;background:#56e0ff18;right:-60px;top:-65px}.rank-emblem{height:180px;display:grid;place-items:center;font-size:6.5rem;filter:drop-shadow(0 12px 18px #56e0ff35)}.hero-card h3{margin:0;font-size:1.4rem}.hero-card p{color:var(--muted);margin:4px 0 0}.mini-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:20px}.stat{background:#0c1325;border:1px solid var(--line);border-radius:13px;padding:13px}.stat b{display:block;color:var(--gold);font-size:1.1rem}.stat small{color:var(--muted)}
+section{padding:45px 0}.section-head{text-align:center;margin-bottom:27px}.section-head h2{font-size:clamp(1.8rem,4vw,2.5rem);margin:0 0 8px}.section-head p{color:var(--muted);margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.price-card{background:linear-gradient(150deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:18px;padding:22px;position:relative}.price-card.featured{border-color:#ffd16680;box-shadow:0 0 28px #ffd1660c}.rank-icon{font-size:2rem}.price-card h3{margin:8px 0 3px;font-size:1.25rem}.price{font-size:1.55rem;font-weight:950;color:var(--gold)}.price small{font-size:.82rem;color:var(--muted);font-weight:600}.price-card p{color:var(--muted);font-size:.92rem;min-height:48px}.price-card .btn{width:100%;margin-top:8px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.step{padding:20px;border:1px solid var(--line);border-radius:16px;background:#0e1527}.number{width:35px;height:35px;display:grid;place-items:center;border-radius:10px;background:#263555;color:var(--cyan);font-weight:900}.step h3{margin:12px 0 4px}.step p{margin:0;color:var(--muted);font-size:.94rem}
+.cta{border:1px solid #34466e;border-radius:24px;padding:32px;background:linear-gradient(120deg,#172342,#10182c);display:flex;justify-content:space-between;align-items:center;gap:20px}.cta h2{margin:0 0 6px}.cta p{color:var(--muted);margin:0}.notice{color:var(--muted);font-size:.85rem;margin-top:18px}footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:.88rem}.foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media(max-width:760px){.navlinks{display:none}.hero{grid-template-columns:1fr;padding-top:38px}.hero-card{max-width:520px}.cards{grid-template-columns:1fr}.steps{grid-template-columns:1fr}.cta{align-items:flex-start;flex-direction:column}h1{letter-spacing:-1.2px}.rank-emblem{height:125px}}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <nav><a class="brand" href="#"><span>SIKI</span> STORE</a><div class="navlinks"><a href="#harga">Harga</a><a href="#cara-order">Cara Order</a><a href="#kontak">Kontak</a></div><a class="btn secondary" href="#harga">Lihat Harga</a></nav>
+</header>
+<main>
+  <div class="wrap hero">
+    <div>
+      <span class="eyebrow">⚡ OPEN JOKI RANK MLBB</span>
+      <h1>Push Rank Jadi<br><span class="gradient">Lebih Mudah.</span></h1>
+      <p class="lead">Joki rank dan joki gendong Mobile Legends: Bang Bang bersama SIKI STORE. Pilih rank tujuanmu, lalu chat admin untuk konfirmasi harga dan antrean.</p>
+      <div class="actions"><a class="btn primary" href="https://wa.me/6285265273384?text=Halo%20Admin%20SIKI%20STORE%2C%20saya%20mau%20order%20joki%20MLBB." target="_blank" rel="noopener">💬 Order via WhatsApp</a><a class="btn secondary" href="#harga">Cek Daftar Harga ↓</a></div>
+    </div>
+    <aside class="hero-card"><div class="rank-emblem">🏆</div><h3>SIKI STORE</h3><p>Joki Rank • Joki Gendong • MLBB</p><div class="mini-stats"><div class="stat"><b>EPIC</b><small>Mulai Rp3.000/bintang</small></div><div class="stat"><b>LEGEND</b><small>Mulai Rp4.000/bintang</small></div></div></aside>
+  </div>
+  <section id="harga"><div class="wrap"><div class="section-head"><h2>Pilih <span class="gradient">Rank Tujuan</span></h2><p>Harga awal sebagai panduan. Konfirmasi total ke admin sebelum order.</p></div>
+    <div class="cards">
+      <article class="price-card"><div class="rank-icon">🛡️</div><h3>Epic</h3><div class="price">Rp3.000 <small>/ bintang</small></div><p>Cocok untuk mulai push rank dari Epic.</p><a class="btn secondary" href="https://wa.me/6285265273384?text=Halo%20Admin%2C%20saya%20mau%20order%20joki%20rank%20Epic." target="_blank" rel="noopener">Pilih Epic</a></article>
+      <article class="price-card featured"><div class="rank-icon">⚔️</div><h3>Legend</h3><div class="price">Rp4.000 <small>/ bintang</small></div><p>Diskusikan target bintang dan estimasi pengerjaan dengan admin.</p><a class="btn primary" href="https://wa.me/6285265273384?text=Halo%20Admin%2C%20saya%20mau%20order%20joki%20rank%20Legend." target="_blank" rel="noopener">Pilih Legend</a></article>
+      <article class="price-card"><div class="rank-icon">👑</div><h3>Mythic & seterusnya</h3><div class="price">Chat Admin</div><p>Mythic, Mythic Honor, Glory, hingga Immortal. Harga menyesuaikan target.</p><a class="btn secondary" href="https://wa.me/6285265273384?text=Halo%20Admin%2C%20mohon%20info%20harga%20joki%20Mythic%2C%20Honor%2C%20Glory%2C%20dan%20Immortal." target="_blank" rel="noopener">Tanya Harga</a></article>
+    </div><p class="notice">* Harga di atas adalah harga awal yang diinformasikan. Pastikan total biaya, target rank, dan estimasi waktu disepakati bersama admin sebelum mulai.</p>
+  </div></section>
+  <section id="cara-order"><div class="wrap"><div class="section-head"><h2>Cara <span class="gradient">Order</span></h2><p>Proses singkat dan jelas.</p></div><div class="steps">
+    <div class="step"><div class="number">1</div><h3>Pilih Layanan</h3><p>Tentukan rank sekarang, rank tujuan, dan jumlah bintang yang dibutuhkan.</p></div>
+    <div class="step"><div class="number">2</div><h3>Chat Admin</h3><p>Kirim detail order lewat WhatsApp untuk cek harga dan antrean.</p></div>
+    <div class="step"><div class="number">3</div><h3>Konfirmasi</h3><p>Sepakati biaya dan ketentuan layanan sebelum pengerjaan dimulai.</p></div>
+  </div></div></section>
+  <section id="kontak"><div class="wrap"><div class="cta"><div><h2>Siap push rank?</h2><p>Hubungi admin SIKI STORE untuk tanya harga dan order.</p></div><a class="btn primary" href="https://wa.me/6285265273384?text=Halo%20Admin%20SIKI%20STORE%2C%20saya%20ingin%20konsultasi%20joki%20MLBB." target="_blank" rel="noopener">Chat Admin ↗</a></div></div></section>
+</main>
+<footer><div class="wrap foot"><span>© 2026 SIKI STORE • Joki MLBB</span><span>Main aman, order dengan kesepakatan yang jelas.</span></div></footer>
+</body>
+</html>
